@@ -1,0 +1,739 @@
+/*
+ * jquery.popeye.style.css 2.1
+ *
+ * Example styles for jQuery.popeye
+ *
+ * Copyright (C) 2011 Christoph Schuessler (schreib@herr-schuessler.de)
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/* fallback styles for image list */
+.ppy-imglist {
+    width:          100%;
+    display:        block;
+    overflow:       hidden;
+    
+}
+.ppy-imglist li {
+    padding:        10px;
+    border:         none;
+    /*border-radius:          5px;
+    -moz-border-radius:     5px;
+    -khtml-border-radius:   5px;
+    -webkit-border-radius:  5px;*/
+    background:     #fff;
+    list-style:     none;
+    float:          left;
+    display:        block;
+    margin:         0 10px 10px 0;
+}
+.ppy-imglist li a img {
+    display:        block;
+    border:         0;
+}
+
+#ppy2 .ppy-imglist li,
+#ppy2 .ppy-imglist li a {
+    width:              100%;
+    height:             100%;
+    overflow:           hidden;
+    display:        block;
+}
+
+#ppy3 .ppy-imglist li,
+#ppy3 .ppy-imglist li a {
+    width:              100%;
+    height:             100%;
+    overflow:           hidden;
+    display:        block;
+}
+
+
+
+
+
+
+/* popeye example 2 */
+#ppy2.ppy-active {
+    width:          320px;
+    float:          right;
+    margin:         0 0 10px 20px;
+}
+
+#ppy2 .ppy-outer {
+    padding:        0 0 0 0;
+    
+}
+#ppy2 .ppy-stagewrap {
+    padding:        0;
+    /*border-radius:          5px 0 5px 5px;
+    -moz-border-radius:     5px 0 5px 5px;
+    -webkit-border-radius:  5px 0 5px 5px;*/
+	border:none;
+    background:     #fff;
+	margin-top:30px;
+}
+
+#ppy2 .ppy-stage {
+    width:              320px;
+    height:             250px;
+    border:             2px solid #fff;
+    /*border-radius:          3px;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;*/
+    background-color:       #fff;
+    cursor:         pointer;
+}
+
+#ppy2 .ppy-counter {
+    background:         #fff;
+    color:              #333;
+    padding:            0 5px;
+    font-size:          0.8em;
+    position:           absolute;
+    bottom:             0;
+    right:              0;
+    opacity:            0.7;
+    /*border-radius:          5px 0 0 0;
+    -moz-border-radius:     5px 0 0 0;
+    -khtml-border-radius:   5px 0 0 0;
+    -webkit-border-radius:  5px 0 0 0; */
+}
+
+#ppy2 .ppy-loading {
+    background-image:   url(../images/loading2.gif);
+    background-repeat:  no-repeat;
+    background-position:center;
+}
+
+#ppy2 .ppy-nav {
+    /*border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    background:     #76c6ee;
+    background:     -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgb(118,198,238)),
+        color-stop(1, rgb(45,158,214))
+    );
+    background:     -moz-linear-gradient(
+        left top,
+        rgb(118,198,238) 0%,
+        rgb(45,158,214) 100%
+    );
+    border-left:    1px solid #6ab1d5;*/
+    width:          320px;
+    position:       absolute;
+    top:            -10px;
+    right:          0;
+}
+
+#ppy2 .nav-wrap {
+    padding:        5px 0; position:relative; float:right;
+}
+
+#ppy2 .ppy-nav a {
+    display:        block;
+    overflow:       hidden;
+    text-indent:    -900em;
+    height:         20px;
+    padding:        5px;
+    border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    width:          20px;
+}
+
+#ppy2 .ppy-prev {
+    background:     url(../images/sl_prev.png) no-repeat center; float:left;
+}
+
+#ppy2 .ppy-next {
+    background:     url(../images/sl_next.png) no-repeat center; float:left;
+}
+
+#ppy2 .ppy-switch-enlarge {
+    background:     url(../images/enlarge4.png) no-repeat center;
+}
+
+#ppy2 .ppy-switch-compact {
+    background:     url(../images/compact4.png) no-repeat center;
+}
+
+#ppy2 .ppy-nav a:hover {
+    /*background-color:   #378eba;*/
+    cursor:         pointer;
+    opacity:        0.8;
+}
+
+
+
+/* popeye example 3 */
+#ppy3.ppy-active {
+    width:          320px;
+    float:          right;
+    margin:         0 0 10px 20px;
+}
+
+#ppy3 .ppy-outer {
+    padding:        0 0 0 0;
+    
+}
+#ppy3 .ppy-stagewrap {
+    padding:        0;
+    /*border-radius:          5px 0 5px 5px;
+    -moz-border-radius:     5px 0 5px 5px;
+    -webkit-border-radius:  5px 0 5px 5px;*/
+	border:none;
+    background:     #fff;
+	margin-top:30px;
+}
+
+#ppy3 .ppy-stage {
+    width:              320px;
+    height:             250px;
+    border:             2px solid #fff;
+    /*border-radius:          3px;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;*/
+    background-color:       #fff;
+    cursor:         pointer;
+}
+
+#ppy3 .ppy-counter {
+    background:         #fff;
+    color:              #333;
+    padding:            0 5px;
+    font-size:          0.8em;
+    position:           absolute;
+    bottom:             0;
+    right:              0;
+    opacity:            0.7;
+    /*border-radius:          5px 0 0 0;
+    -moz-border-radius:     5px 0 0 0;
+    -khtml-border-radius:   5px 0 0 0;
+    -webkit-border-radius:  5px 0 0 0; */
+}
+
+#ppy3 .ppy-loading {
+    background-image:   url(../images/loading2.gif);
+    background-repeat:  no-repeat;
+    background-position:center;
+}
+
+#ppy3 .ppy-nav {
+    /*border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    background:     #76c6ee;
+    background:     -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgb(118,198,238)),
+        color-stop(1, rgb(45,158,214))
+    );
+    background:     -moz-linear-gradient(
+        left top,
+        rgb(118,198,238) 0%,
+        rgb(45,158,214) 100%
+    );
+    border-left:    1px solid #6ab1d5;*/
+    width:          320px;
+    position:       absolute;
+    top:            -10px;
+    right:          0;
+}
+
+#ppy3 .nav-wrap {
+    padding:        5px 0; position:relative; float:right;
+}
+
+#ppy3 .ppy-nav a {
+    display:        block;
+    overflow:       hidden;
+    text-indent:    -900em;
+    height:         20px;
+    padding:        5px;
+    border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    width:          20px;
+}
+
+#ppy3 .ppy-prev {
+    background:     url(../images/sl_prev.png) no-repeat center; float:left;
+}
+
+#ppy3 .ppy-next {
+    background:     url(../images/sl_next.png) no-repeat center; float:left;
+}
+
+#ppy3 .ppy-switch-enlarge {
+    background:     url(../images/enlarge4.png) no-repeat center;
+}
+
+#ppy3 .ppy-switch-compact {
+    background:     url(../images/compact4.png) no-repeat center;
+}
+
+#ppy3 .ppy-nav a:hover {
+    /*background-color:   #378eba;*/
+    cursor:         pointer;
+    opacity:        0.8;
+}
+
+
+@media only screen and (max-width: 480px) and (orientation:portrait) {
+#ppy2 .ppy-stage {width:220px; height:170px;}
+#ppy3 .ppy-stage {width:220px; height:170px;}	
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape) {
+#ppy2 .ppy-stage {width:120px; height:100px;}	
+#ppy3 .ppy-stage {width:120px; height:100px;}
+#ppy2 .ppy-nav a{padding:0;}
+#ppy3 .ppy-nav a{padding:0;}
+#ppy2 .ppy-nav {top:0;}
+#ppy3 .ppy-nav {top:0;}
+}
+
+
+@media only screen and (max-width: 320px) and (orientation:portrait) {
+#ppy2 .ppy-stage {width:120px; height:100px;}
+#ppy3 .ppy-stage {width:120px; height:100px;}	
+#ppy2 .ppy-nav {top:-5px; right:-10px;}
+#ppy3 .ppy-nav {top:-5px; right:-10px;}
+}
+
+
+#ppy4 .ppy-imglist li,
+#ppy4 .ppy-imglist li a {
+    width:              100%;
+    height:             100%;
+    overflow:           hidden;
+    display:        block;
+}
+
+#ppy5 .ppy-imglist li,
+#ppy5 .ppy-imglist li a {
+    width:              100%;
+    height:             100%;
+    overflow:           hidden;
+    display:        block;
+}
+
+
+
+
+
+
+/* popeye example 2 */
+#ppy4.ppy-active {
+    width:          320px;
+    float:          right;
+    margin:         0 0 10px 20px;
+}
+
+#ppy4 .ppy-outer {
+    padding:        0 0 0 0;
+    
+}
+#ppy4 .ppy-stagewrap {
+    padding:        0;
+    /*border-radius:          5px 0 5px 5px;
+    -moz-border-radius:     5px 0 5px 5px;
+    -webkit-border-radius:  5px 0 5px 5px;*/
+    border:none;
+    background:     #fff;
+    margin-top:30px;
+}
+
+#ppy4 .ppy-stage {
+    width:              320px;
+    height:             250px;
+    border:             2px solid #fff;
+    /*border-radius:          3px;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;*/
+    background-color:       #fff;
+    cursor:         pointer;
+}
+
+#ppy4 .ppy-counter {
+    background:         #fff;
+    color:              #333;
+    padding:            0 5px;
+    font-size:          0.8em;
+    position:           absolute;
+    bottom:             0;
+    right:              0;
+    opacity:            0.7;
+    /*border-radius:          5px 0 0 0;
+    -moz-border-radius:     5px 0 0 0;
+    -khtml-border-radius:   5px 0 0 0;
+    -webkit-border-radius:  5px 0 0 0; */
+}
+
+#ppy4 .ppy-loading {
+    background-image:   url(../images/loading2.gif);
+    background-repeat:  no-repeat;
+    background-position:center;
+}
+
+#ppy4 .ppy-nav {
+    /*border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    background:     #76c6ee;
+    background:     -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgb(118,198,238)),
+        color-stop(1, rgb(45,158,214))
+    );
+    background:     -moz-linear-gradient(
+        left top,
+        rgb(118,198,238) 0%,
+        rgb(45,158,214) 100%
+    );
+    border-left:    1px solid #6ab1d5;*/
+    width:          320px;
+    position:       absolute;
+    top:            -10px;
+    right:          0;
+}
+
+#ppy4 .nav-wrap {
+    padding:        5px 0; position:relative; float:right;
+}
+
+#ppy4 .ppy-nav a {
+    display:        block;
+    overflow:       hidden;
+    text-indent:    -900em;
+    height:         20px;
+    padding:        5px;
+    border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    width:          20px;
+}
+
+#ppy4 .ppy-prev {
+    background:     url(../images/sl_prev.png) no-repeat center; float:left;
+}
+
+#ppy4 .ppy-next {
+    background:     url(../images/sl_next.png) no-repeat center; float:left;
+}
+
+#ppy4 .ppy-switch-enlarge {
+    background:     url(../images/enlarge4.png) no-repeat center;
+}
+
+#ppy4 .ppy-switch-compact {
+    background:     url(../images/compact4.png) no-repeat center;
+}
+
+#ppy4 .ppy-nav a:hover {
+    /*background-color:   #378eba;*/
+    cursor:         pointer;
+    opacity:        0.8;
+}
+
+
+
+/* popeye example 3 */
+#ppy5.ppy-active {
+    width:          320px;
+    float:          right;
+    margin:         0 0 10px 20px;
+}
+
+#ppy5 .ppy-outer {
+    padding:        0 0 0 0;
+    
+}
+#ppy5 .ppy-stagewrap {
+    padding:        0;
+    /*border-radius:          5px 0 5px 5px;
+    -moz-border-radius:     5px 0 5px 5px;
+    -webkit-border-radius:  5px 0 5px 5px;*/
+    border:none;
+    background:     #fff;
+    margin-top:30px;
+}
+
+#ppy5 .ppy-stage {
+    width:              320px;
+    height:             250px;
+    border:             2px solid #fff;
+    /*border-radius:          3px;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;*/
+    background-color:       #fff;
+    cursor:         pointer;
+}
+
+#ppy5 .ppy-counter {
+    background:         #fff;
+    color:              #333;
+    padding:            0 5px;
+    font-size:          0.8em;
+    position:           absolute;
+    bottom:             0;
+    right:              0;
+    opacity:            0.7;
+    /*border-radius:          5px 0 0 0;
+    -moz-border-radius:     5px 0 0 0;
+    -khtml-border-radius:   5px 0 0 0;
+    -webkit-border-radius:  5px 0 0 0; */
+}
+
+#ppy5 .ppy-loading {
+    background-image:   url(../images/loading2.gif);
+    background-repeat:  no-repeat;
+    background-position:center;
+}
+
+#ppy5 .ppy-nav {
+    /*border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    background:     #76c6ee;
+    background:     -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgb(118,198,238)),
+        color-stop(1, rgb(45,158,214))
+    );
+    background:     -moz-linear-gradient(
+        left top,
+        rgb(118,198,238) 0%,
+        rgb(45,158,214) 100%
+    );
+    border-left:    1px solid #6ab1d5;*/
+    width:          320px;
+    position:       absolute;
+    top:            -10px;
+    right:          0;
+}
+
+#ppy5 .nav-wrap {
+    padding:        5px 0; position:relative; float:right;
+}
+
+#ppy5 .ppy-nav a {
+    display:        block;
+    overflow:       hidden;
+    text-indent:    -900em;
+    height:         20px;
+    padding:        5px;
+    border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    width:          20px;
+}
+
+#ppy5 .ppy-prev {
+    background:     url(../images/sl_prev.png) no-repeat center; float:left;
+}
+
+#ppy5 .ppy-next {
+    background:     url(../images/sl_next.png) no-repeat center; float:left;
+}
+
+#ppy5 .ppy-switch-enlarge {
+    background:     url(../images/enlarge4.png) no-repeat center;
+}
+
+#ppy5 .ppy-switch-compact {
+    background:     url(../images/compact4.png) no-repeat center;
+}
+
+#ppy5 .ppy-nav a:hover {
+    /*background-color:   #378eba;*/
+    cursor:         pointer;
+    opacity:        0.8;
+}
+
+
+@media only screen and (max-width: 480px) and (orientation:portrait) {
+#ppy4 .ppy-stage {width:220px; height:170px;}
+#ppy5 .ppy-stage {width:220px; height:170px;}   
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape) {
+#ppy4 .ppy-stage {width:120px; height:100px;}   
+#ppy5 .ppy-stage {width:120px; height:100px;}
+#ppy4 .ppy-nav a{padding:0;}
+#ppy5 .ppy-nav a{padding:0;}
+#ppy4 .ppy-nav {top:0;}
+#ppy5 .ppy-nav {top:0;}
+}
+
+
+@media only screen and (max-width: 320px) and (orientation:portrait) {
+#ppy4 .ppy-stage {width:120px; height:100px;}
+#ppy5 .ppy-stage {width:120px; height:100px;}   
+#ppy4 .ppy-nav {top:-5px; right:-10px;}
+#ppy5 .ppy-nav {top:-5px; right:-10px;}
+}
+
+
+
+#ppy6 .ppy-imglist li,
+#ppy6 .ppy-imglist li a {
+    width:              100%;
+    height:             100%;
+    overflow:           hidden;
+    display:        block;
+}
+
+/* popeye example 3 */
+#ppy6.ppy-active {
+    width:          320px;
+    float:          right;
+    margin:         0 0 10px 20px;
+}
+
+#ppy6 .ppy-outer {
+    padding:        0 0 0 0;
+    
+}
+#ppy6 .ppy-stagewrap {
+    padding:        0;
+    /*border-radius:          5px 0 5px 5px;
+    -moz-border-radius:     5px 0 5px 5px;
+    -webkit-border-radius:  5px 0 5px 5px;*/
+    border:none;
+    background:     #fff;
+    margin-top:30px;
+}
+
+#ppy6 .ppy-stage {
+    width:              320px;
+    height:             250px;
+    border:             2px solid #fff;
+    /*border-radius:          3px;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;*/
+    background-color:       #fff;
+    cursor:         pointer;
+}
+
+#ppy6 .ppy-counter {
+    background:         #fff;
+    color:              #333;
+    padding:            0 5px;
+    font-size:          0.8em;
+    position:           absolute;
+    bottom:             0;
+    right:              0;
+    opacity:            0.7;
+    /*border-radius:          5px 0 0 0;
+    -moz-border-radius:     5px 0 0 0;
+    -khtml-border-radius:   5px 0 0 0;
+    -webkit-border-radius:  5px 0 0 0; */
+}
+
+#ppy6 .ppy-loading {
+    background-image:   url(../images/loading2.gif);
+    background-repeat:  no-repeat;
+    background-position:center;
+}
+
+#ppy6 .ppy-nav {
+    /*border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    background:     #76c6ee;
+    background:     -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgb(118,198,238)),
+        color-stop(1, rgb(45,158,214))
+    );
+    background:     -moz-linear-gradient(
+        left top,
+        rgb(118,198,238) 0%,
+        rgb(45,158,214) 100%
+    );
+    border-left:    1px solid #6ab1d5;*/
+    width:          320px;
+    position:       absolute;
+    top:            -10px;
+    right:          0;
+}
+
+#ppy6 .nav-wrap {
+    padding:        5px 0; position:relative; float:right;
+}
+
+#ppy6 .ppy-nav a {
+    display:        block;
+    overflow:       hidden;
+    text-indent:    -900em;
+    height:         20px;
+    padding:        5px;
+    border-radius:          0 5px 5px 0;
+    -moz-border-radius:     0 5px 5px 0;
+    -webkit-border-radius:  0 5px 5px 0;
+    width:          20px;
+}
+
+#ppy6 .ppy-prev {
+    background:     url(../images/sl_prev.png) no-repeat center; float:left;
+}
+
+#ppy6 .ppy-next {
+    background:     url(../images/sl_next.png) no-repeat center; float:left;
+}
+
+#ppy6 .ppy-switch-enlarge {
+    background:     url(../images/enlarge4.png) no-repeat center;
+}
+
+#ppy6 .ppy-switch-compact {
+    background:     url(../images/compact4.png) no-repeat center;
+}
+
+#ppy6 .ppy-nav a:hover {
+    /*background-color:   #378eba;*/
+    cursor:         pointer;
+    opacity:        0.8;
+}
+
+
+@media only screen and (max-width: 480px) and (orientation:portrait) {
+#ppy5 .ppy-stage {width:220px; height:170px;}
+#ppy6 .ppy-stage {width:220px; height:170px;}   
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape) {
+#ppy5 .ppy-stage {width:120px; height:100px;}   
+#ppy6 .ppy-stage {width:120px; height:100px;}
+#ppy5 .ppy-nav a{padding:0;}
+#ppy6 .ppy-nav a{padding:0;}
+#ppy5 .ppy-nav {top:0;}
+#ppy6 .ppy-nav {top:0;}
+}
+
+
+@media only screen and (max-width: 320px) and (orientation:portrait) {
+#ppy5 .ppy-stage {width:120px; height:100px;}
+#ppy6 .ppy-stage {width:120px; height:100px;}   
+#ppy5 .ppy-nav {top:-5px; right:-10px;}
+#ppy6 .ppy-nav {top:-5px; right:-10px;}
+}

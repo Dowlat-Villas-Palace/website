@@ -1,0 +1,253 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0">
+<title>Dowlat Villas Palace The Heritage - Preamble</title>   
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Dowlat Villas Palace The Heritage, Dowlat Villas Palace Himmatnagar is the private residence & Heritage Hotel of Maharaj Narendra Singhji of Idar, Son of Late Maharaj Shri Umeg Singhji of Idar."/>
+<meta name="keywords" content="Dowlat Villas Palace The Heritage, Hotel, Heritage Hotel Himmatnagar, Himmatnagar Hotel,Dowlat Villas Palace Himmatnagar, Heritage Palace"/>
+<meta name="robots" content="index,follow">
+<meta name="distribution" content="web">
+<link rel="canonical" href="http://dowlatvillaspalacetheheritage.com/about.html" />
+
+<link href="css/slideshow.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="jquery/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script>!window.jQuery.ui && document.write(unescape('%3Cscript src="jquery/jquery-ui-1.8.21.custom.min.js"%3E%3C/script%3E'))</script>
+<!-- mousewheel plugin -->
+<script src="js/jquery.mousewheel.min.js"></script>
+<!-- custom scrollbars plugin -->
+<script src="js/jquery.mCustomScrollbar.js"></script>
+<script>
+	(function($){
+		$(window).load(function(){
+			$("#content_1").mCustomScrollbar({
+				scrollButtons:{
+					enable:true
+				}
+			});
+		});
+	})(jQuery);
+</script>
+<script type="text/javascript">
+var slo=null;
+var sola = Array();
+var prev = 0;
+var cur = 1;
+var timi=null
+
+$(document).ready(function() {
+	sol = document.getElementById('slidy').getElementsByTagName('div')
+	var sho = document.getElementById('slidya').getElementsByTagName('a');
+	for(var i=1;i<sho.length-1;i++)sola.push(sho[i])		
+	for(var i=1;i<sol.length;i++)sol[i].style.display = 'none';
+	timi = window.setInterval('doslide()',12000);
+})
+
+function doslide()
+{
+	$(sol[prev]).fadeOut(1000);
+	$(sol[cur]).fadeIn(1000);
+	sola[prev].className = 'number'
+	sola[cur].className = 'number select'
+	
+	prev = cur++;
+	if(cur>sol.length-1)
+	{
+		cur=0;
+		prev= sol.length-1;
+	}
+}
+
+function prevnext(mode)
+{
+	window.clearInterval(timi);timi=null;
+	
+	if(mode)
+	{
+		if(cur>sol.length-1)
+		{
+			cur=0;
+			prev= sol.length-1;
+		}
+		doslide();		
+	}
+	else
+	{
+		cur--;
+		prev--;
+		
+		if(prev<0)
+		{
+			cur=0;
+			prev= sol.length-1;
+		}
+		if(cur<0)
+		{
+			cur=sol.length-1;
+			prev=cur-1 ;		
+		}
+
+		$(sol[cur]).fadeOut(1000);
+		$(sol[prev]).fadeIn(1000);
+		sola[cur].className = 'number'
+		sola[prev].className = 'number select'	
+	}
+	timi = window.setInterval('doslide()',5000)
+}
+
+function thisisit(aiyo)
+{
+	cur = aiyo
+	window.clearInterval(timi);timi=null;
+	
+	$(sol[cur]).fadeIn(1000);
+	$(sol[prev]).fadeOut(1000);
+	sola[cur].className = 'number select'
+	sola[prev].className = 'number'	
+	
+	prev=cur
+	++cur;
+	if(prev<0)prev = sol.length-1;
+	timi = window.setInterval('doslide()',5000)		
+}
+</script>    
+<style type="text/css">
+div.menu-bar ul ul{
+  display: none;
+}
+
+div.menu-bar li:hover > ul {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div id="about">
+
+<div class="logo"><a href="index.html"><img src="images/logo_home.png" alt="" border="0"></a>
+</div>
+
+<div id="navigation">
+
+<div class="menu menu-bar"><ul id="topnav">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">Preamble</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="car-museum.html">Car Museum</a></li>
+<li><a href="virtual-tour.html">Virtual Tour</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="tariff.html">Tariff</a></li>
+<li><a href="book-now.html">Book now</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+<!--<div align="center">
+<div><a href="http://www.tripadvisor.com/ShowUserReviews-g304555-d4972251-r188848279-Khatu_Haveli-Jaipur_Rajasthan.html#REVIEWS" target="_blank"><img src="images/tripadvisor.jpg" alt="" width="60" height="60" border="0" /></a></div>
+<div><a href="http://www.booking.com/hotel/in/khatu-haveli.en-us.html?aid=355028;sid=4a0019030b79171d543b259bc77d1856;dcid=1#tab-reviews" target="_blank"><img src="images/booking_com.png" alt="" width="140" height="35" border="0" /></a></div>
+
+</div>-->
+<div class="social">
+<!--<div>Connect with us</div>
+<div><a href="#" target="_blank" ><img src="images/icon_twitter.png" width="23" height="30" border="0" /></a>&nbsp;<a href="#" target="_blank" ><img src="images/icon_youtube.png" width="23" height="30" border="0" /></a>&nbsp;<a href="#" target="_blank" ><img src="images/icon_facebook.png" width="23" height="30" border="0" /></a>&nbsp;<a href="#" target="_blank" ><img src="images/icon_linkedin.png" width="23" height="30" border="0" /></a></div>-->
+<div><a href="faq.html">FAQ</a> |  <a href="sitemap.html">Sitemap</a> </div>
+
+</div>
+<div></div><div> </div>
+</div>
+
+</div>
+
+<div class="content">
+	<div class="content_top">
+    	<h1>Preamble</h1>
+    </div>
+    
+    <div id="content_1" class="content2">
+    Dowlat Villas Palace The Heritage, Dowlat Villas Palace Himmatnagar is the private residence & Heritage Hotel of Maharaj Narendra Singhji of Idar, Son of Late Maharaj Shri Umeg Singhji of Idar. The Property has been their residence since Five generations.
+    <br>
+    <br>
+  The deity of the Idar Royal Family is Nageshwari Devi. Ilvadurg - now Idar gets its name after the First Demon King Ilvan, in the Dwarpara Yug.
+    <br>
+    <br>
+    The present dynasty hails from the Jodha Rathod clan of Marwar - Jodhpur established by the first ruler H.H.Maharaja Anandsinghji in 1731 AD. Now The Idarya Rathod clan. Idar state was a 1st class state enjoying 15 Gun salutes.
+    <br>
+    <br>
+   Situated in North Gujarat The present Maharaja Rajendra Singhji is the 12th ruler.
+    <br>
+    <br>
+   Maharaj Man Singhji the second son of H.H.Maharaja Dowlat Singhji built the Dowlat Villas Palace in the 1920's. The Palace is Built in British Colonial and Rajput architecture. 
+    <br>
+    <br>
+   Maharaj Shri Umeg Singhji was an honorary Home Guard District Commandant who had given honorary service for 27 years and in that Span he had achieved several government awards and Medals, which are now with his son Maharaj Narendra Signhji on display.
+  	<br />
+    <br />
+    The palace has 36 bedrooms, Banquet Halls, Dining rooms, Conference Hall,Convention Hall, Sprawling Lawns ideal for marriage and Corporate Functions. At present 11 bedrooms are functional of which 7 are Heritage Suite Rooms and 4 are Heritage Executive Rooms furnished with art deco and Victorian Furniture.
+    <br />
+    <br />
+    The palace also has an acre of Mango orchard with Idar Ratan Mango variety specially made for H.H.Maharaja Himmat Singhji. With passion for cars Maharaj Narendra Signhji has a vintage and classic cars Museum which houses cars, carriages, motor boats.
+    <br />
+    <br />
+    Dowlat Villas palace The Heritage Hotel Himmatnagar is located 90 Kms enroute from Ahmedabad to Udaipur on NH-8 District Sabarkantha. The property is managed by Maharaj Saheb's son Karni Signhji of Idar.
+    <br />
+    <br />
+    Contact Person : Karni Singhji
+    <br />
+    Address : Dowlat Villas Palace The Heritage, 
+    <br />
+    Dowlat Villas Palace,
+    <br />
+    Himmatnagar, Gujarat.
+    <br /><br /><br /><br />
+	</div>
+    
+    <div id="slidy" class="slidepart fl"> 
+<div><img src="images/about/1-hh-sir-pratap-singhji.JPG" border="0"></div>
+<div><img src="images/about/2-hh-dowlat-singhji.JPG" border="0"></div>
+<div><img src="images/about/3-hh-himmat-singhji.JPG" border="0"></div>
+<div><img src="images/about/4-umegh-singhji.JPG" border="0"></div>
+<div><img src="images/about/5-family-1.JPG" border="0"></div>
+<div><img src="images/about/6-family-2.JPG" border="0"></div>
+<div><img src="images/about/7-family-3.JPG" border="0"></div>
+<div><img src="images/about/8.JPG" border="0"></div>
+<div><img src="images/about/9.JPG" border="0"></div>
+<div><img src="images/about/10.JPG" border="0"></div>
+<div><img src="images/about/11.JPG" border="0"></div>
+<div><img src="images/about/12.JPG" border="0"></div>
+	</div>
+	<div class="sl_paginationpart">
+<ul id="slidya" class="slpagination">
+    <li><a href="javascript: prevnext(0);" class="prev"></a></li>
+    <li><a href="javascript: thisisit(0)" class="number select"></a></li>
+    <li><a href="javascript: thisisit(1)" class="number"></a></li>
+    <li><a href="javascript: thisisit(2)" class="number"></a></li>
+    <li><a href="javascript: thisisit(3)" class="number"></a></li>
+    <li><a href="javascript: thisisit(4)" class="number"></a></li>
+	<li><a href="javascript: thisisit(5)" class="number"></a></li>
+	<li><a href="javascript: thisisit(6)" class="number"></a></li>
+	<li><a href="javascript: thisisit(7)" class="number"></a></li>
+	<li><a href="javascript: thisisit(8)" class="number"></a></li>
+	<li><a href="javascript: thisisit(9)" class="number"></a></li>
+	<li><a href="javascript: thisisit(10)" class="number"></a></li>
+	<li><a href="javascript: thisisit(11)" class="number"></a></li>
+	<li><a href="javascript: thisisit(12)" class="number"></a></li>
+    <li><a href="javascript: prevnext(12);" class="next"></a></li>
+</ul>            	
+</div>
+</div>
+<div class="footer">
+	
+		<a href="disclaimer.html">Disclaimer</a><!-- | <a href="refund.html">Refund & Cancellation</a> -->| <a href="tariff.html">Book Now</a>
+
+</div>
+    
+</div>	  
+</body>
+</html>
